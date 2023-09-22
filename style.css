@@ -28,7 +28,38 @@ p
 	font-family: sans-serif; 
 }
 
-div
+div.buton
 {
 	text-align:  center;
+}
+
+div.div
+{
+	
+	width: 20%;
+	background-color: lightgray;
+	height: 450px;
+	border-radius: 20px;
+	margin-left: 450px
+}
+
+.p2
+{
+	text-align: center;
+}
+
+img
+{
+	width: 50%;
+	margin-left: 90px;
+	align-items: center;
+	border-radius: 10px
+}
+
+.div:hover
+{
+	transform: scale(1.1);
+	background-color: lightblue;
+	transition: all 2s ;
+
 }
