@@ -1,0 +1,34 @@
+.boutton
+{
+	background-color: lightblue;
+	color: black;
+	border-radius:  30px;
+	padding: 10px 40px;	
+	margin: 10px;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	width: 150px;
+	text-align: center;
+
+}
+
+.boutton:hover
+{
+	color:  white;
+	background-color: #3295a8 ;
+}
+
+fieldset
+{
+	border: solid green;
+}
+
+p
+{
+	font-family: sans-serif; 
+}
+
+div
+{
+	text-align:  center;
+}
