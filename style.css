@@ -1,65 +1,83 @@
-.boutton
+*
 {
-	background-color: lightblue;
-	color: black;
-	border-radius:  30px;
-	padding: 10px 40px;	
-	margin: 10px;
-	cursor: pointer;
-	transition: color 0.3s ease;
-	width: 150px;
-	text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
 
 }
 
-.boutton:hover
-{
-	color:  white;
-	background-color: #3295a8 ;
+nav > ul{
+    display: flex;
+    width: 10%;
 }
 
-fieldset
-{
-	border: solid green;
+ ul li.btn a {
+    color: rgb(240, 233, 233);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1em;
+    padding: 20px ;
+    border-radius: 0px;
+    display: block;
+    
+    }
+
+ ul li.btn:hover a{
+    color: rgb(10, 31, 99);
+    transition: 1.2s all;  
+    background-color: beige; 
+    
 }
 
-p
+
+
+ul li.l2 
 {
-	font-family: sans-serif; 
+    background-color: blueviolet;
+    display: none;
 }
 
-div.buton
-{
-	text-align:  center;
+ ul li.l2:hover a{
+    color: rgb(10, 31, 99);
+    transition: 1.2s all;  
+    background-color: rgb(3, 52, 51); 
+    
 }
 
-div.div
-{
-	
-	width: 20%;
-	background-color: lightgray;
-	height: 450px;
-	border-radius: 20px;
-	margin-left: 450px
-}
 
-.p2
-{
-	text-align: center;
-}
-
-img
-{
-	width: 50%;
-	margin-left: 90px;
-	align-items: center;
-	border-radius: 10px
-}
-
-.div:hover
-{
-	transform: scale(1.1);
-	background-color: lightblue;
-	transition: all 2s ;
+header .btn:hover .l2{
+   display: block;
 
 }
+
+
+.logo
+{
+    width: 5%;
+    padding: 20px ;
+    border-radius: 0px;
+    
+   
+}
+
+.img
+{
+    text-align: right;
+   
+    
+    
+}
+
+body
+{
+    background-image: url('https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-1-full.jpg');  
+}
+
+.navi
+{
+    
+    margin-top: -100px;
+}
+
+
+    
