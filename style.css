@@ -10,10 +10,8 @@
 nav > ul{
     display: flex;
     width: 10%;
-   
-   
-
 }
+
 
  ul li.btn a {
     color: rgb(213, 32, 32);
@@ -57,15 +55,22 @@ header .btn:hover .l2{
 .logo
 {
     width: 5%;
-    padding: 20px ;
+    padding: 15px ;
     border-radius: 0px;
-    
-   
+}
+
+body
+{
+    background-image: url('R.jpg');
+    background-size: cover;
 }
 
 .img
 {
     text-align: right;
+   margin-top: -1px;
+ 
+ 
    
     
     
@@ -73,10 +78,23 @@ header .btn:hover .l2{
 
 
 .navi
-{
-    
-    margin-top: -100px;
+{  
+      
+    margin-top: -90px;
 }
 
+
+
+
+.head
+{
+    position: fixed;
+ 
+top: 0;
+ 
+width: 100%;
+ 
+z-index: 10000;
+}
 
     
