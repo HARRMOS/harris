@@ -1,100 +1,67 @@
-*
-{
-     padding: 0;
- margin-top: -2px;
-    text-decoration: none;
+*{
+    text-decoration-line: none;
     list-style-type: none;
-
+    padding: 0;
 }
 
-nav > ul{
+.liste
+{
     display: flex;
-    width: 10%;
-}
-
-
- ul li.btn a {
-    color: rgb(213, 32, 32);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.1em;
-    padding: 20px ;
-    border-radius: 0px;
-    display: block;
-    
-    }
-
- ul li.btn:hover a{
-    color: rgb(10, 31, 99);
-    transition: 1.2s all;  
-    background-color: beige; 
-    
-}
-
-
-
-ul li.l2 
-{
-    background-color: blueviolet;
-    display: none;
-}
-
- ul li.l2:hover a{
-    color: rgb(10, 31, 99);
-    transition: 1.2s all;  
-    background-color: rgb(3, 52, 51); 
-    
-}
-
-
-header .btn:hover .l2{
-   display: block;
-
-}
-
-
-.logo
-{
-    width: 5%;
-    padding: 15px ;
-    border-radius: 0px;
-}
-
-body
-{
-    background-image: url('R.jpg');
-    background-size: cover;
-}
-
-.img
-{
-    text-align: right;
-   margin-top: -1px;
- 
- 
    
-    
-    
+}
+
+li
+{
+    margin-left: 80px;
+    border-radius: 30px;
+     
+}
+
+nav
+{
+   margin-left: 150px;
 }
 
 
-.navi
-{  
-      
-    margin-top: -90px;
+
+div
+{
+
+   margin: 20px;
+}
+
+.m2
+{
+    display: none;
+    margin: 0;
+  
+}
+
+.btn:hover .m2
+{
+    display: block;  
+    transition: all 3s;
 }
 
 
-
-
-.head
+header 
 {
     position: fixed;
- 
-top: 0;
- 
-width: 100%;
- 
-z-index: 10000;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
 }
 
+
+.liste a
+{ 
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
     
+   
+    border-radius: 30px;
+}
+
+
