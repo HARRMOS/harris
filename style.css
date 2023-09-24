@@ -38,6 +38,7 @@ h1
     color: rgb(0, 0, 0);
     font-size: 20px;
     padding: 0px 10px; 
+    position: sticky;
 }
 .a2
 {
@@ -116,6 +117,29 @@ img
     align-items: center;
 }
 
+svg
+{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
 
+path:nth-child(1)
+
+{
+   
+    stroke-dasharray: 1000PX;
+    stroke-dashoffset: 1000px;
+    animation: anim 10s ease forwards;
+    
+
+}
+
+@keyframes anim 
+{
+    to{
+        stroke-dashoffset: 0;
+    }   
+}
 
 
