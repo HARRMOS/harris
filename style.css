@@ -120,20 +120,16 @@ img
 svg
 {
     position: absolute;
-    top: 40%;
-    left: 40%;
-}
-
-path:nth-child(1)
-
-{
-   
-    stroke-dasharray: 1000PX;
-    stroke-dashoffset: 1000px;
-    animation: anim 10s ease forwards;
+    top: 30%;
+    left: 0%;
+    width: 90%;
+    align-items: center;
     
-
 }
+
+
+
+
 
 @keyframes anim 
 {
@@ -142,4 +138,64 @@ path:nth-child(1)
     }   
 }
 
+.d2
+{
+  
+    height: 100%;
+    align-items: center;
+}
 
+
+.d1
+{
+    position: absolute;
+	width: 22%;
+	background-color: transparent;
+	height: 450px;
+	border-radius: 20px;
+	margin-top: 150px;
+	margin-left: 550px;
+	padding: 20px;
+   
+}
+
+.p
+{
+	margin-top: 320px;
+}
+
+.p2
+{
+	text-align: center;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.img2
+{
+	width: 60%;
+	left: 55px;
+    bottom:  300px;
+    
+	
+}
+.d1:hover 
+{
+	transform: scale(1.1);
+	background-color: wheat;
+	transition: all 5s ;  
+}
+
+.d1:hover path
+{
+
+	transform: scale(1.1);
+	background-color: lightblue;
+	transition: all 2s ;
+    stroke-dasharray: 1000PX;
+    stroke-dashoffset: 1000px;
+    animation: anim 5s ease forwards;
+    pointer-events: all;
+    stroke: rgb(65, 136, 230);
+    
+}
