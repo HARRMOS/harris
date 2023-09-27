@@ -162,7 +162,7 @@ img
 .d1:hover 
 {
 	transform: scale(1.1);
-	background-color: wheat;
+	background-color: transparent;
 	transition: all 5s ;  
 }
 
