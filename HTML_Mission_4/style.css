@@ -43,12 +43,13 @@ section
     text-align: center;
     float: left;
     margin: 20px 60px;
+    font-weight: bold;
 }
 
 .s4
 {
     float: left;
- 
+    font-weight: bold;
     width: 40%;
     margin: 20px 60px;
 
@@ -58,7 +59,7 @@ section
     clear: both;
     border: solid coral;
     width: 90%;
-    height: 300px;
+    height: 250px;
     margin: 20px 40px;
     border-radius: 10px;
 }
