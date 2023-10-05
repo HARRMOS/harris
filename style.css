@@ -12,21 +12,29 @@ header
 {
     height: 100vh;
     width: 100vw;
-    background-image: url();
-    background-size: cover;
     background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.logoh
+{
+    position: fixed;
 }
 
 .nav
 {
-    
-    position: absolute;
     padding: 25px 10px;
     display: flex;
-
     width: 100%;
-
+    position: fixed;
 }
+
+.menu
+{
+    display: flex;
+}
+
+
 
 h1
 {
@@ -44,13 +52,15 @@ h1
 {
     color: rgb(7, 119, 223);
     font-size: 20px;
-    padding: 20px 10px;
+    padding: 10px;   
 }
 
 .a3
 {
-    color: coral;
+    color: rgb(237, 237, 237);
     font-size: 20px;
+  
+    
     
 }
 
@@ -61,10 +71,8 @@ h1
     padding: 0px 80px;
 }
 
-.m2 
-{
-    display: none;
-}
+ 
+
 .btn:hover .m2 
 { 
    display: block;
@@ -74,12 +82,20 @@ h1
 {
     display: none;
     padding: 10px 10px;
+    background-color: rgb(32, 194, 212);
+    opacity: 0.8;
+    text-align: center;
+    
 }
 
 .m2
 {
-  margin: 1px 1px;
-  align-items: center;
+     display: none;
+    padding: 5px;
+    text-align: center;
+
+  
+
 }
 
 
@@ -88,6 +104,7 @@ h1
 {
    display: block;
    align-items: center;
+   transition: all 3s;
 }
 
 
@@ -112,6 +129,7 @@ img
 }
 
 
+
 .btn
 {
     align-items: center;
@@ -121,7 +139,7 @@ img
 .d2
 {
   
-    height: 100%;
+    
     align-items: center;
 }
 
@@ -136,6 +154,7 @@ img
 	margin-top: 150px;
 	margin-left: 550px;
 	padding: 20px;
+    transition: all 3s;
    
 }
 
@@ -188,12 +207,22 @@ svg
 {
 
 	transform: scale(1.1);
-	background-color: lightblue;
 	transition: all 2s ;
-    stroke-dasharray: 1000PX;
+    stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
     animation: anim 5s ease forwards;
-    pointer-events: all;
+    
     stroke: rgb(65, 136, 230);
     
+    
 }
+
+path
+{
+    transition: all 3s;
+}
+
+
+/*  Reponsive */
+
+@media (max-widht)
