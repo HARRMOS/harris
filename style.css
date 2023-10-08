@@ -133,6 +133,7 @@ img
 .btn
 {
     align-items: center;
+   
 }
 
                              /*  Carte Harris   */
@@ -211,11 +212,11 @@ svg
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
     animation: anim 5s ease forwards;
-    
     stroke: rgb(65, 136, 230);
     
-    
 }
+
+
 
 path
 {
@@ -223,6 +224,67 @@ path
 }
 
 
-/*  Reponsive */
+        /* Responsive add*/
 
-@media (max-widht)
+.liste
+{
+
+display: flex;
+
+}
+
+.pr
+{
+   position: relative;
+   right: 1%;
+   top: -5px;  
+}
+.a4
+{
+   
+    display: none;
+    padding: 10px 120px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(226, 186, 43);
+
+}
+
+
+
+
+
+
+
+
+/*  Reponsive */
+@media all and (max-width:500px)
+{
+    .liste,img,path,.d1,.hr
+    {
+        display: none;
+    }
+
+    .a4
+    {
+        display: block;
+    }
+    .l4:hover > .liste
+    {
+        display: block;
+       padding: 0 110px;    
+    }
+    .a2
+    {
+        
+     color: white;
+     
+    }
+    .a1{
+       padding:  10px;
+    }
+
+ 
+}
+
+
