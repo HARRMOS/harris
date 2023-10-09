@@ -82,7 +82,7 @@ h1
 {
     display: none;
     padding: 10px 10px;
-    background-color: rgb(32, 194, 212);
+    background-color: rgb(212, 170, 32);
     opacity: 0.8;
     text-align: center;
     
@@ -253,6 +253,20 @@ display: flex;
     font-weight: bold;
     color: rgb(226, 186, 43);
 
+}
+
+.a5
+{
+    display: none;
+    padding: 10px 120px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(43, 116, 226);
+}
+
+.mission:hover .a5
+{
+    display: block;
 }
 
 
