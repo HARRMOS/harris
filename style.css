@@ -277,7 +277,7 @@ display: flex;
 
 
 /*  Reponsive */
-@media all and (max-width:700px)
+@media all and (max-width:900px)
 {
     .liste,img,path,.d1,.hr
     {
