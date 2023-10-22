@@ -73,7 +73,15 @@ body
 
 
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
     .a1 {
         display: none;
     }
@@ -186,6 +194,20 @@ body
     animation: anim 5s ease forwards;
     stroke: rgb(65, 136, 230);
     
+}
+#m5
+{
+    position: absolute;
+    top: 80px;
+    right: -95px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+}
+.a5
+{
+    color: cornflowerblue;
+    font-weight: bold;
 }
 
 
