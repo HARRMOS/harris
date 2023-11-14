@@ -22,6 +22,9 @@ function tp()
     document.getElementById("m3").style.display = "none";
     document.getElementById("m4").style.display = "none";
     document.getElementById("m5").style.display = "none";
+
+    document.getElementById("t1").style.display = "none";
+    document.getElementById("t2").style.display = "none";
    
 }
 function mission()
@@ -38,7 +41,32 @@ function mission()
     document.getElementById("m3").style.display = "block";
     document.getElementById("m4").style.display = "block";
     document.getElementById("m5").style.display = "block";
+
+
+    document.getElementById("t1").style.display = "none";
+    document.getElementById("t2").style.display = "none";
    
+}
+
+function java()
+{
+
+    document.getElementById("t1").style.display = "block";
+    document.getElementById("t2").style.display = "block";
+
+    document.getElementById("tp1").style.display = "none";
+    document.getElementById("tp2").style.display = "none";
+    document.getElementById("tp3").style.display = "none";
+    document.getElementById("tp4").style.display = "none";
+    document.getElementById("tp5").style.display = "none";
+    document.getElementById("tp6").style.display = "none";
+
+    document.getElementById("m1").style.display = "none";
+    document.getElementById("m2").style.display = "none";
+    document.getElementById("m3").style.display = "none";
+    document.getElementById("m4").style.display = "none";
+    document.getElementById("m5").style.display = "none";
+ 
 }
 
 function certif()

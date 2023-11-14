@@ -66,14 +66,14 @@ body
 }
 
 
-#liste,#mission,.m5,#c1,#menu,#tp1,#tp2,#tp3,#tp4,#tp5,#tp6,#m1,#m2,#m3,#m4,#m5,img, path {
+#liste,#mission,.m5,#c1,#menu,#tp1,#tp2,#tp3,#tp4,#tp5,#tp6,#m1,#m2,#m3,#m4,#m5,img, path,#t1,#t2 {
     display: none;
 }
 
 
 
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 1000px) {
     * {
         margin: 0;
         padding: 0;
@@ -84,6 +84,20 @@ body
     }
     .a1 {
         display: none;
+    }
+    .java
+    {
+         font-family: 'arial';
+        color: white;
+    }
+
+    .tpjava
+    {
+        background-color: lightblue;
+        border-radius: 10px;
+        width: 70px;
+        position: absolute;
+        left: 280px;
     }
     
 
@@ -152,6 +166,12 @@ body
     #a20:hover .mission
     {
        display: none;
+    }
+    
+
+    #a2:hover .java
+    {
+        display: flex;
     }
     .a3
     {
