@@ -1,0 +1,101 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    color: black;
+}
+
+.btn_li
+{
+    margin: 20px 0px;
+}
+
+.liste
+{
+   padding: 0px 30px;
+}
+
+.btn{
+    color: black;
+    font-size: 30px;
+    border: solid black;
+    border-radius: 10px;
+    
+    box-shadow: 5px 5px;
+
+  
+}
+.vell{
+    color: black;
+    font-size: 20px;
+    border: solid black;
+    border-radius: 10px;
+    margin: 80px 30px;
+    box-shadow: 5px 5px;
+
+  
+}
+
+.v_li
+{
+    margin: 15px 2px;
+}
+
+.btn:hover{
+    color: rgb(61, 30, 30);
+    background-color: cornflowerblue;
+    border: solid rgb(37, 59, 97);
+}
+
+.btn:hover{
+    color: rgb(61, 30, 30);
+    background-color: cornflowerblue;
+    border: solid rgb(37, 59, 97);
+}
+
+
+
+.veille
+{
+    display: none;
+    position: absolute;
+    top: 190px;
+    right: -35px;
+}
+
+.btn_veille:hover .veille{
+    display: block;
+}
+
+
+
+
+.projet
+{
+    display: none;
+    position: absolute;
+    top: 140px;
+    right: 85px;
+}
+
+.btn_li:hover .projet
+{
+    display: block;
+}
+
+.pp
+{
+    margin: 10px 20px; 
+}
+
+.prj
+{
+    color: black;
+    font-size: 20px;
+    border: solid black;
+    border-radius: 10px;
+ 
+    box-shadow: 5px 5px;
+}
+
+

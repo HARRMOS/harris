@@ -22,6 +22,9 @@ function tp()
     document.getElementById("m3").style.display = "none";
     document.getElementById("m4").style.display = "none";
     document.getElementById("m5").style.display = "none";
+    document.getElementById("m7").style.display = "none";
+    document.getElementById("m8").style.display = "none";
+    document.getElementById("m9").style.display = "none";
 
     document.getElementById("t1").style.display = "none";
     document.getElementById("t2").style.display = "none";
@@ -41,6 +44,9 @@ function mission()
     document.getElementById("m3").style.display = "block";
     document.getElementById("m4").style.display = "block";
     document.getElementById("m5").style.display = "block";
+    document.getElementById("m7").style.display = "block";
+    document.getElementById("m8").style.display = "block";
+    document.getElementById("m9").style.display = "block";
 
 
     document.getElementById("t1").style.display = "none";
@@ -66,6 +72,9 @@ function java()
     document.getElementById("m3").style.display = "none";
     document.getElementById("m4").style.display = "none";
     document.getElementById("m5").style.display = "none";
+    document.getElementById("m7").style.display = "none";
+    document.getElementById("m8").style.display = "none";
+    document.getElementById("m9").style.display = "none";
  
 }
 
