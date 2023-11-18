@@ -73,3 +73,23 @@ img
         
     margin: -180px 80%;
 }
+
+.cv_button
+{
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 0px;
+   
+    border: solid cornflowerblue;
+    background-color: coral;    
+
+}
+.cv_button:hover
+{
+    transition: all 0.5s;
+    background-color: lightcoral;
+    transform: scale(1.1);
+   color: #3388cc;
+
+}
