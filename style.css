@@ -99,7 +99,7 @@ body
         border-radius: 10px;
         width: 70px;
         position: absolute;
-        left: 280px;
+        left: 480px;
     }
     
 
@@ -141,7 +141,8 @@ body
     #menu {
         position: absolute;
         float: left;
-        top: 80px;
+        top: 70px;
+        left: 95px;
 
     }
 
@@ -161,8 +162,8 @@ body
     {
         transition: all 2s;
         position: absolute;
-        top: 2px;
-        right: -120px;
+        top: 70px;
+        right: 1140px;
         max-width: -50px;
         background-color: blanchedalmond;
         border-radius: 5px;
