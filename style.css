@@ -87,7 +87,7 @@ body
     .a1 {
         display: none;
     }
-    .java
+    .java,.loca
     {
          font-family: 'arial';
         color: white;
@@ -107,6 +107,11 @@ body
         float: left;
         
 
+    }
+
+    .btn:hover .b1
+    {
+        display: block;
     }
 
     .am
@@ -184,6 +189,7 @@ body
         
     }
 
+   
 
 
     .btn:hover .m2 {
