@@ -205,4 +205,10 @@ document.body.style.background = color;
 }
 
 
+function fonction20()
+{
+    
+}
+
+
 

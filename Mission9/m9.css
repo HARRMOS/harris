@@ -4,6 +4,18 @@
     padding: 0;
 }
 
+.td
+{
+    float: left;
+    margin: 0 50px;
+}
+
+#fac
+{
+    float: left;
+    clear: both;
+}
+
 .gauche
 {
     position: absolute;

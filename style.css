@@ -166,9 +166,6 @@ body
     .ulm
     {
         transition: all 2s;
-        position: absolute;
-        top: 70px;
-        right: 1140px;
         max-width: -50px;
         background-color: blanchedalmond;
         border-radius: 5px;

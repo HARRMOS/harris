@@ -24,7 +24,7 @@
     <div class="destinataire">
         <h3>Destinataire</h3> <hr> <br>
         <h2>
-            Nom : <input placeholder="" type="text" name="name" class="name"><br>
+            Nom :&emsp;&emsp; <input placeholder="" type="text" name="name" class="name"><br>
             Société : <input placeholder="" type="text" name="societe" class="soc"><br>
             Adresse postale : <input placeholder="" type="text" name="adr" class="adr"><br>
             Téléphone : <input placeholder="" type="text" name="tel" class="tel"><br>
@@ -44,12 +44,32 @@
     </div>
 <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br> <br> <br> <br>
 
-<div id="fac"> 
-    <section id="s1"><h3> Description </h3> <input class="desc" type="text"></section> 
-   <section class="s2"> <h3 class="quant"> Quantite</h3> <input class="quant" type="number"></section> 
-   <section class="s3">  <h3> Prix</h3> <input class="prix" type="number"></section>
-   <section class="s4"> <h3> Total</h3> <input class="total" type="number"> </section> <br> <br> <br>
-</div> <br>
+<table id="dd" >
+	<tr id="txt">
+		<td class="td"> Description :</td>
+		<td class="td"> Prix :</td>
+		<td class="td"> Quantité :</td>
+		<td class="td"> Total:</td>
+	</tr>
+	<tr id="fac">
+		<td><input type="text" name="a1" placeholder="Entrez un article"></td>
+		<td><input type="number" name="prix" id="p1" placeholder="0"></td>
+		<td><input type="number" name="quantite" id="q1" placeholder="0"></td>
+		<td><input type="number" name="t1" id="r1" placeholder="Resultat" readonly></td>
+	</tr>
+    <tr id="fac">
+		<td><input type="text" name="a1" placeholder="Entrez un article"></td>
+		<td><input type="number" name="prix" id="p1" placeholder="0"></td>
+		<td><input type="number" name="quantite" id="q1" placeholder="0"></td>
+		<td><input type="number" name="t1" id="r1" placeholder="Resultat" readonly></td>
+	</tr>
+	
+	<tr>
+		
+		
+		<td><input type="number" name="r4" id="r4" placeholder="Total" readonly></td>
+	</tr>
+</table>
 
 
 
