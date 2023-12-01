@@ -14,21 +14,22 @@ function calculer()
 
 function Ajout_ligne()
 {
-       var x = document.getElementById("fac");
-      
-    
-       var s = x.cloneNode(true);
-       document.getElementById("fac").appendChild(s);
-     
-
+       var x = document.getElementById("ttbd").rows.length;
+       var z = document.getElementById("fac")
+       var newRow = z.cloneNode(true);
+       document.getElementById('ttbd').insertBefore(newRow, document.getElementById('fac'));
+       
       
         
       }
 
 function remplir()
-{
-
+{    
+ 
  p1.value = Math.floor(Math.random() * 10);
+ q1.value = Math.floor(Math.random() * 10);
+  
+  calculer();
 }
 
 function Annuler()
