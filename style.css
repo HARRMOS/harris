@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Coolvetica;
     
 
 }
@@ -87,7 +87,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family:Arial;
+   
     margin: 0px;
     padding: 0px;
   }
