@@ -87,7 +87,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family:Verdana, Calibri , sans-serif;
+    font-family:Arial;
     margin: 0px;
     padding: 0px;
   }
@@ -175,6 +175,21 @@ nav li:hover .submenu{
     background-color: white;
     
 
+}
+
+.mooc
+{
+    display: none;
+    position: absolute;
+    top: 260px;
+    right: -162px;
+    background-color: lightcoral;
+}
+
+.c2:hover .mooc{
+    display: block;
+  
+    
 }
 
 
