@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wave-top
+{
+    position: absolute;
+    top: -2px;
+    width: 100%;
+}
+
+.wave-bottom
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.poetsen
+{
+    font-family: 'Poetsen One', cursive;
+}
+
