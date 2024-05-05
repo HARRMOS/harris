@@ -1,53 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/svg+xml" href="public/vite.svg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="main.js"></script>
-        
-      </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
 
-      <header>
-        <nav id="nav-bar" class="bg-[#131415] max-w-full relative top-0 mx-auto  p-6 flex items-center justify-between">
-            <a href="top" class=" text-white" >M. Harris</a>
-            <button class="cursor-pointer w-7 md:hidden" aria-expanded="false" id="menu-btn">
-              <img src="/All_Images/images/categorie.png" alt="">
-            </button>
-            <ul id="ul-nav" class="roboto w-full absolute top-full left-0 -translate-y-full -z-10 text-white border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row">
-              <li class="py-4 md:py-0 md:mr-6">
-                <a href="" class="text-sm uppercase font-semibold w-full text-green-700">Accueil</a>
-              </li>
-              <li class="py-4 md:py-0 md:mr-6">
-                <a href="" class="text-sm uppercase font-semibold w-full hover:text-green-700">Portfolio</a>
-              </li>
-              <li class="py-4 md:py-0 md:mr-6">
-                <a href="" class="text-sm uppercase font-semibold w-full hover:text-green-700">Contacts</a>
-              </li> 
-            </ul>
-          </nav>
-          <nav id="nav" class="dark:bg-neutral-800 mr-24 w-full max-w-full relative top-0 mx-auto  p-6 flex items-center justify-between">
-            <ul class=" w-full absolute top-full left-0 -translate-y-full -z-10 text-black border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row">
-                <li class=" md:py-0 md:mr-6 no-underline list-none"><a class="a1" href="#">HTML & CSS </a>
-                    <ul class="hidden absolute dark:bg-neutral-800 w-[30%] p-[10px] rounded-md">
-                       <li><a href="#">TP1 (absent)</a></li>
-                      <li><a href="#">TP 2 (absent)</a></li>
-                      <li><a href="#">TP 3 </a></li>
-                      <li><a href="Tp4/index.html">TP4 </a></li>
-                      <li><a href="TP5/index.html">TP5 </a></li>
-                      <li><a href="TP5/tp5.2.html">TP5.1 </a></li>
-                      <li><a href="TP5/tp5.3.html">TP5.2 </a></li>
-                      <li><a href="TP5/tp5_note.html">TP5.3 </a></li>
-                      <li><a href="tp6/index.html">TP6 bootstrap</a></li>
-                    </ul>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Style pour le menu déroulant */
+        .dropdown {
+            position: relative;
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .dropdown-menu {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-[#121B17] text-white">
+    <header>
+        <nav id="nav" class="bg-[#0c120f] mx-auto p-6 flex items-center justify-between">
+            <ul class="flex">
+                <li class="mr-8">
+                    <div class="dropdown">
+                        <a class="a1" href="#">HTML & CSS</a>
+                        <ul class="dropdown-menu absolute bg-[#1c2b25] w-[15rem] p-4 rounded-md">
+                            <li><a href="#">TP1 (absent)</a></li>
+                            <li><a href="#">TP2 (absent)</a></li>
+                            <li><a href="#">TP3</a></li>
+                            <li><a href="Tp4/index.html">TP4</a></li>
+                            <li><a href="TP5/index.html">TP5</a></li>
+                            <li><a href="TP5/tp5.2.html">TP5.1</a></li>
+                            <li><a href="TP5/tp5.3.html">TP5.2</a></li>
+                            <li><a href="TP5/tp5_note.html">TP5.3</a></li>
+                            <li><a href="tp6/index.html">TP6 bootstrap</a></li>
+                        </ul>
+                    </div>
                 </li>
-      </header>
-<body>
-    
+                <li class="mr-8">
+                    <div class="dropdown">
+                        <a class="a1" href="#">Javascript</a>
+                        <ul class="dropdown-menu absolute bg-[#1c2b25] w-[15rem] p-4 rounded-md">
+                            <li><a href="tp6/page principale/index.html">TP6.1</a></li>
+                            <li><a href="Tp7/.html">TP7</a></li>
+                            <li><a href="tp7/.html">TP7.1</a></li>
+                            <li><a href="tp8/.html">TP8</a></li>
+                            <li><a href="Tp8/tp8.html">TP8</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mr-8">
+                    <div class="dropdown">
+                        <a class="a1" href="#">Base de données</a>
+                        <ul class="dropdown-menu absolute bg-[#1c2b25] w-[15rem] p-4 rounded-md">
+                            <li><a href="base_données/location_voiture.html">tp1 Location_voiture</a></li>
+                            <li><a href="base_données/cinema.html">TP2 Cinema</a></li>
+                            <li><a href="base_données/requete_biblioV2/index.html">BibliothequeV2</a></li>
+                            <li><a href="base_données/pays_bd/index.html">Requete_pays_bd</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mr-8">
+                    <div class="dropdown">
+                        <a class="a1" href="#">PHP</a>
+                        <ul class="dropdown-menu absolute bg-[#1c2b25] w-[15rem] p-4 rounded-md">
+                            <!-- Remplacez ces liens vides par vos liens réels -->
+                            <li><a href="#">Lien1</a></li>
+                            <li><a href="#">Lien2</a></li>
+                            <li><a href="#">Lien3</a></li>
+                            <li><a href="#">Lien4</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mr-8">
+                    <div class="dropdown">
+                        <a class="a1" href="#">Missions</a>
+                        <ul class="dropdown-menu absolute bg-[#1c2b25] w-[15rem] p-4 rounded-md">
+                            <li><a href="#">Mission 1 (absent)</a></li>
+                            <li><a href="html_m2/index.html">Mission2</a></li>
+                            <li><a href="Html_Mission3/index.html">Mission3</a></li>
+                            <li><a href="HTML_Mission_4/index.html">Mission4</a></li>
+                            <li><a href="#">Mission 5 & 6</a></li>
+                            <li><a href="Mission7/mission7.html">Mission 7</a></li>
+                            <li><a href="Mission_8/m8.html">Mission 8</a></li>
+                            <li><a href="Mission9/m9.html">Mission 9</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mr-8">
+                    <div class="dropdown">
+                        <a class="a1" href="#">Certifications</a>
+                        <ul class="dropdown-menu absolute bg-[#1c2b25] w-[15rem] p-4 rounded-md">
+                            <li><a href="certif/MODULE 1 _ LE RGPD ET SES NOTIONS CLÉS_Attestation du Module 1.pdf">Module 1</a></li>
+                            <li><a href="certif/module 2.pdf">Module 2</a></li>
+                            <li><a href="certif/MODULE 3 _ LES RESPONSABILITES DES ACTEURS_Attestation du Module 3.pdf">Module 3</a></li>
+                            <li><a href="certif/MODULE 4 _ LE DPO ET LES OUTILS DE LA CONFORMITÉ_Attestation du Module 4.pdf">Module 4</a></li>
+                            <li><a href="certif/MODULE 5 _ LES COLLECTIVITÉS TERRITORIALES_Attestation du Module 5.pdf">Module 5</a></li>
+                            <li class="c2">
+                                <a href="#">Mission10</a>
+                                <ul class="mooc">
+                                    <li><a href="mission10/COMPTE_RENDU_4module.pdf" target="_blank">Compte_rendue</a></li>
+                                    <li><a href="mission10/DEF_COMPTE_RENDU.pdf" target="_blank">DEF_Compte_rendue</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mr-8">
+                    <div class="dropdown">
+                        <a class="a1" href="#">Concepteur</a>
+                        <ul class="dropdown-menu absolute bg-[#1c2b25] w-[15rem] p-4 rounded-md">
+                            <li><a href="Concepteur/Biblio.html">Tp1_Biblioteque</a></li>
+                            <li><a href="Requete_PHP/REquete_php.docx">TP1_REQUETE_SQL</a></li>
+                            <!-- Ajoutez les autres liens ici -->
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
