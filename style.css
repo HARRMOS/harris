@@ -21,3 +21,21 @@
     font-family: 'Poetsen One', cursive;
 }
 
+.neon2{
+    color:white;
+    animation-name:glow;
+    animation-duration:1.5s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+  }
+  @keyframes glow{
+    from{text-shadow:0px 0px 5px #fff,0px 0px 5px #203f20;}
+    to{text-shadow:0px 0px 20px #fff,0px 0px 20px #203f20;}
+  }
+  
+  @keyframes glow2{
+    from{text-shadow:0px 0px 5px #203f20,0px 0px 5px #FF7500;}
+    to{text-shadow:0px 0px 30px #203f20,0px 0px 30px #FF7500;}
+  }
+  
+  
